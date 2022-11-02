@@ -155,7 +155,7 @@ func NewFromMemory(b []byte) (f Document, err error) {
 }
 
 // NewFromReader returns new fitz document from io.Reader.
-func NewFromReader(r io.Reader) (f *Document, err error) {
+func NewFromReader(r io.Reader) (f Document, err error) {
 	b, e := ioutil.ReadAll(r)
 	if e != nil {
 		err = e
