@@ -2,7 +2,7 @@ version: "{build}"
 
 clone_depth: 1
 
-clone_folder: c:\gopath\src\github.com\gen2brain\go-fitz
+clone_folder: c:\gopath\src\github.com\z4rd0s\go-fitz
 
 environment:
   GOPATH: c:\gopath
@@ -19,4 +19,4 @@ install:
   - go env
 
 build_script:
-  - bash -lc "cd /c/gopath/src/github.com/gen2brain/go-fitz && go build"
+  - bash -lc "cd /c/gopath/src/github.com/z4rd0s/go-fitz && go build"

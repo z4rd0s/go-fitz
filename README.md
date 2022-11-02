@@ -1,8 +1,8 @@
 ## go-fitz
-[![Build Status](https://github.com/gen2brain/go-fitz/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/go-fitz/actions)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/vuuoq9epsd1sa007?svg=true)](https://ci.appveyor.com/project/gen2brain/go-fitz)
-[![GoDoc](https://godoc.org/github.com/gen2brain/go-fitz?status.svg)](https://godoc.org/github.com/gen2brain/go-fitz)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gen2brain/go-fitz?branch=master)](https://goreportcard.com/report/github.com/gen2brain/go-fitz)
+[![Build Status](https://github.com/z4rd0s/go-fitz/actions/workflows/build.yml/badge.svg)](https://github.com/z4rd0s/go-fitz/actions)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/vuuoq9epsd1sa007?svg=true)](https://ci.appveyor.com/project/z4rd0s/go-fitz)
+[![GoDoc](https://godoc.org/github.com/z4rd0s/go-fitz?status.svg)](https://godoc.org/github.com/z4rd0s/go-fitz)
+[![Go Report Card](https://goreportcard.com/badge/github.com/z4rd0s/go-fitz?branch=master)](https://goreportcard.com/report/github.com/z4rd0s/go-fitz)
 
 Go wrapper for [MuPDF](http://mupdf.com/) fitz library that can extract pages from PDF and EPUB documents as images, text, html or svg.
 
@@ -12,7 +12,7 @@ Go wrapper for [MuPDF](http://mupdf.com/) fitz library that can extract pages fr
 * `static` - build with static external MuPDF library (used with `extlib`)
 * `pkgconfig` - enable pkg-config (used with `extlib`)
 * `musl` - use musl compiled library
-    
+
 ### Example
 ```go
 package main
@@ -24,7 +24,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gen2brain/go-fitz"
+	"github.com/z4rd0s/go-fitz"
 )
 
 func main() {
